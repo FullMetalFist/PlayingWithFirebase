@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5A486119B4F3FB006093E2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A486019B4F3FB006093E2 /* Accounts.framework */; };
+		7C5A486319B4F405006093E2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A486219B4F405006093E2 /* Social.framework */; };
 		7CB637E719997F5200B1373C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB637E619997F5200B1373C /* Constants.m */; };
 		7CC9C69B1991756C0081ADEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9C69A1991756C0081ADEC /* Foundation.framework */; };
 		7CC9C69D1991756C0081ADEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9C69C1991756C0081ADEC /* CoreGraphics.framework */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C5A486019B4F3FB006093E2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7C5A486219B4F405006093E2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		7CB637E519997F5200B1373C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		7CB637E619997F5200B1373C /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		7CC9C6971991756C0081ADEC /* FullMetalFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullMetalFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5A486319B4F405006093E2 /* Social.framework in Frameworks */,
+				7C5A486119B4F3FB006093E2 /* Accounts.framework in Frameworks */,
 				7CC9C6D4199176790081ADEC /* Firebase.framework in Frameworks */,
 				7CC9C6D2199176270081ADEC /* SystemConfiguration.framework in Frameworks */,
 				7CC9C6D01991761C0081ADEC /* Security.framework in Frameworks */,
@@ -120,6 +126,8 @@
 		7CC9C6991991756C0081ADEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C5A486219B4F405006093E2 /* Social.framework */,
+				7C5A486019B4F3FB006093E2 /* Accounts.framework */,
 				7CC9C6D3199176790081ADEC /* Firebase.framework */,
 				7CC9C6D1199176270081ADEC /* SystemConfiguration.framework */,
 				7CC9C6CF1991761C0081ADEC /* Security.framework */,
